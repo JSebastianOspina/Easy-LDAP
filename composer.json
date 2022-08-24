@@ -1,0 +1,19 @@
+{
+    "name": "ospina/easy-ldap",
+    "description": "PHP Class for working with LDAP in and extremely easy way.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ospina\\EasyLDAP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sebastian Ospina",
+            "email": "sebastianospinacontacto@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
